@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+::-webkit-scrollbar{
+    width:7px;
+    height:5px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+
+}
+::-webkit-scrollbar-thumb{
+    color: gray;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+
+}
+.container{
+    
+    height: 100vh;
+    border: 3px solid black;
+    display: grid;
+
+    grid-template-columns: 320px 1fr 1fr 150px;
+    grid-template-rows: 70px 1fr 100px;
+
+    gap: 3px;
+}
+.box{
+    /* background-color: #121313; */
+    border: 3px solid black;
+
+    
+    /* height: 80px; */
+}
+#navbar{
+    
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #26162F;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 15px;
+    justify-content: space-between;
+    border-radius: 14px;
+}
+
+.angle span{
+    background-color: #140C1C;
+    padding: 12px;
+    border-radius: 50%;
+}
+#Explore{
+    background-color: #FEFFFE;
+    color: #010100;
+    padding: 5px 13px;
+    border-radius: 100px;
+    width: 100%;
+}
+#Explore:hover{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+#bg{
+    background-color: #19080A;
+    color: #FEFFFE;
+    padding: 10px;
+    border-radius: 100px;
+}
+#bg:hover{
+    background-color: white;
+    color: black;
+    
+}
+#bg:hover i{
+    color: black;
+
+}
+#footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: black;
+    /* background-color: white; */
+}
+.controls{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer-content p{
+    color: #A6A7A6;
+    padding: 10px 0;
+}
+.playpause{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 100px; */
+    /* gap: 25px; */
+}
+#footer i{
+    font-size: 24px;
+}
+
+#main{
+    grid-column-start:2;
+    grid-column-end:5;
+    background-color: #121313;
+    padding: 10px 20px;
+    overflow-y: scroll;
+    border-radius: 14px;
+}
+
+#sidebar{
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.my-card{
+    height: 75px;
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    background-color: #31293A;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.my-card:hover{
+    background-color: #595260;
+    cursor: pointer;
+}
+.image img{
+    height: 77px;
+    width: 77px;
+    overflow: hidden;
+}
+.hits{
+    height: 300px;
+    width: 210px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #31293A;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+
+}
+.hits:hover{
+    background-color: #514b57;
+    cursor: pointer;
+    scale: 1.03;
+    /* transition: all 1s ease; */
+
+}
+.hits img:hover{
+    scale:1.03;
+}
+.photo img{
+    border-radius: 10px;
+    height:200px;
+    width:190px;
+}
+.hits-content{
+    padding: 15px 10px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.main1{
+    padding: 15px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.footer-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.footer-content{
+    display: flex;
+    gap: 20px;
+}
+
+.slidecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.slider{
+    border:22px solid white;
+    width: 500px;
+    text-align: center;
+}
+
+.volume{
+    display: flex;
+    gap: 15px;
+    /* width: 300px; */
+}
+.picture img{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.footer-content i{
+    margin-top: 20px;
+}
+.mukesh{
+    
+    margin-top: 20px;
+}
+.volume i{
+    font-size: 20px !important;
+}
+/* Sidebar */
+#sidebar .menu{
+    display: flex;
+    background-color: #121313;
+
+    flex-direction: column;
+    gap: 26px;
+    padding: 15px 15px;
+    /* margin-left: 10px; */
+    /* border: 5px solid black; */
+    border-radius: 14px;
+}
+
+#sidebar i{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.playlist img{
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+}
+.artist img{
+    border-radius: 50%;
+}
+.fixed{
+    position: sticky;
+    top: -15px;
+    background-color: #121313;
+}
+
+.fixed p{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
+#sort{
+    background-color: #121313;
+    border: none;
+    width: 70px;
+}
+.library{
+    background-color: #121313;
+    height: 68vh;
+    margin-top: 7px;
+    padding: 15px 15px;
+    border-radius: 14px;
+    overflow-y: scroll;
+    /* border: 5px solid black; */
+    
+}
+
+
+
+.lib-header span{
+    width: max-content;
+    padding:10px;
+    margin:10px;
+    background-color: #232323;
+    border-radius: 20px;
+    color: #FEFFFE;
+    display: inline;
+    overflow-wrap:inherit;
+}
+.lib-menu{
+    width:max-content;
+    display: flex;
+    justify-content: space-around;
+    
+    /* overflow-wrap:break-word; */
+}
+.lib-menu span:hover{
+    background-color: #383737;
+}
+.lib-header{
+    width: 100%;
+    overflow-x: scroll;
+    
+}
+
+.playlist-card{
+    display:flex;
+    justify-content:start;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.playlist-card:hover{
+    cursor: pointer;
+    background-color: #383737;
+}
+.playlist-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    
+    line-height: 1.5;
+}
+.playlist-content span{
+    color: #FEFFFE;
+}
+.playlist-content p{
+    color: #A6A7A6;
+}
+span:hover{
+    cursor: pointer;
+    
+}
+#footer i:hover{
+    color:red;
+}
+.hover-btn{
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    /* top: 50%;
+    left: 65%; */
+    display:none;
+    z-index: 5;
+    transition: all 1s ease;
+}
+.hover-btn img{
+    width: 80%;
+
+}
+.hits:hover .hover-btn{
+    transition: all 1s ease;
+    display:block;
+    top: 50%;
+    left:65%;
+    animation: move 0.3s linear;
+    /* transform: translateY(-85px); */
+}
+/* .hover-btn :hover{
+    transition: all 1s ease;
+    
+} */
+@keyframes move{
+    0%{
+        transform:translateX(15px) ;
+    }
+    100%{
+        transform:translateX(0px) ;
+    }
+}
+
+.my-card:hover .hover-btn{
+    transition: all 1s ease;
+    display:block;
+    position: relative;
+    top: -10%;
+    left: 15%;
+    animation: move 0.1s linear;
+    /* transform: translateY(-85px); */
+}
+

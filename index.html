@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sotify ☠️</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="navbar">
+        <div>
+          <div class="angle">
+            <span><i class="fa-solid fa-angle-left"></i></span>
+            <span><i class="fa-solid fa-angle-right"></i></span>
+          </div>
+        </div>
+        <div id="gap">
+          <span id="Explore">Explore Premium</span>
+          <span id="bg"
+            ><i class="fa fa-circle-arrow-down"></i> Install App</span
+          >
+          <span id="bg"><i class="fa-regular fa-user"></i></span>
+        </div>
+      </div>
+
+      <div class="box" id="sidebar">
+        <div class="menu">
+          <span><i class="fa fa-home"></i> Home</span>
+
+          <span><i class="fa-solid fa-magnifying-glass"></i>Search</span>
+        </div>
+        <div class="library">
+          <div class="fixed">
+            <p>
+              <span
+                ><i class="fas fa-align-center" style="font-size: 24px"></i>Your
+                Library</span
+              >
+              <span>
+                <i class="fa-solid fa-plus"></i><i class="fa fa-arrow-right"></i
+              ></span>
+            </p>
+            <div class="lib-header">
+              <div class="lib-menu">
+                <span>Playlists</span>
+                <span>Artists</span>
+                <span>Albums</span>
+                <span>Podcasts & shows</span>
+              </div>
+            </div>
+          </div>
+          <div class="filter">
+            <i class="fa fa-magnifying-glass"></i>
+            <label for="sort"></label>
+            <select name="sort" id="sort">
+              <option value="recents">Recents</option>
+              <option value="Recently">Recently Added</option>
+              <option value="Alphabetical">Alphabetical</option>
+              <option value="creator">Creator</option>
+            </select>
+          </div>
+          <div class="playlist">
+            <div class="playlist-card">
+              <div class="img">
+                <img src="3099b3803ad9496896c43f22fe9be8c4.png" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Liked Songs </span>
+                <p>Playlist . 90 songs</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="Screenshot 2023-07-13 at 12.28.45 PM.png" />
+              </div>
+              <div class="playlist-content">
+                <span> Mood </span>
+                <p>Album . Parichay</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="om.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Bhajan </span>
+                <p>Playlist . Sumit🤍</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="hindi.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Hindi Mix </span>
+                <p>Playlist . Sotify</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="2010.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> 2010 Mix </span>
+                <p>Playlist . Sotify</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="workout.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Workout</span>
+                <p>Playlist . Runjhun</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="angrezi.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Angrezi </span>
+                <p>Playlist . Raaz</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="bollywood.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Bollywood Butter </span>
+                <p>Playlist . Sotify</p>
+              </div>
+            </div>
+
+            <div class="playlist-card">
+              <div class="img">
+                <img src="punjabi.jpeg" alt="" />
+              </div>
+              <div class="playlist-content">
+                <span> Punjabi </span>
+                <p>Playlist . Monu</p>
+              </div>
+            </div>
+
+            <div class="artist">
+              <div class="playlist-card">
+                <div class="img">
+                  <img src="dino.jpeg" alt="" />
+                </div>
+                <div class="playlist-content">
+                  <span> Dino James </span>
+                  <p>Artist</p>
+                </div>
+              </div>
+
+              <div class="playlist-card">
+                <div class="img">
+                  <img src="arijit.jpeg" alt="" />
+                </div>
+                <div class="playlist-content">
+                  <span> Arijit Singh</span>
+                  <p>Artist</p>
+                </div>
+              </div>
+
+              <div class="playlist-card">
+                <div class="img">
+                  <img src="armaan.jpeg" alt="" />
+                </div>
+                <div class="playlist-content">
+                  <span> Armaan Malik </span>
+                  <p>Artist</p>
+                </div>
+              </div>
+
+              <div class="playlist-card">
+                <div class="img">
+                  <img src="jubin.jpeg" alt="" />
+                </div>
+                <div class="playlist-content">
+                  <span> Jubin Nautiyal </span>
+                  <p>Artist</p>
+                </div>
+              </div>
+
+              <div class="playlist-card">
+                <div class="img">
+                  <img src="atif.jpeg" alt="" />
+                </div>
+                <div class="playlist-content">
+                  <span> Atif Aslam </span>
+                  <p>Artist</p>
+                </div>
+              </div>
+
+              <div class="playlist-card">
+                <div class="img">
+                  <img src="KK.jpeg" alt="" />
+                </div>
+                <div class="playlist-content">
+                  <span> KK </span>
+                  <p>Artist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box" id="main">
+        <h1>What's Up</h1>
+        <div class="main1">
+          <div class="my-card">
+            <div class="image">
+              <img src="3099b3803ad9496896c43f22fe9be8c4.png" alt="" />
+            </div>
+            <div class="card-content">
+              <span>Liked Songs</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="my-card">
+            <div class="image">
+              <img src="2010.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <span>Talha Anjum</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="my-card">
+            <div class="image">
+              <img src="hindi.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <span>Hindi Mix</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="my-card">
+            <div class="image">
+              <img src="mohit.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <span>Mohit Chauhan</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="my-card">
+            <div class="image">
+              <img src="om.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <span>Bhakti songs</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="my-card">
+            <div class="image">
+              <img src="bollywood.jpeg" alt="" />
+            </div>
+            <div class="card-content">
+              <span>2010s Mix</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h2>Big Hits!</h2>
+
+        <div class="hits-content">
+          <div class="hits">
+            <div class="photo">
+              <img src="young.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 1</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="vilen.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 2</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="darshan.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 3</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="shubh.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 4</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="king.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 5</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h2>Made For Sumit</h2>
+
+        <div class="hits-content">
+          <div class="hits">
+            <div class="photo">
+              <img src="young.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 1</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="vilen.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 2</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="darshan.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 3</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="shubh.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 4</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="king.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 5</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+
+        <div class="hits-content">
+          <div class="hits">
+            <div class="photo">
+              <img src="young.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 1</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="vilen.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 2</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="darshan.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 3</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="shubh.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 4</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="king.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 5</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h2>Rain & Drive</h2>
+
+        <div class="hits-content">
+          <div class="hits">
+            <div class="photo">
+              <img src="young.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 1</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="vilen.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 2</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="darshan.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 3</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="shubh.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 4</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="king.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 5</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h2>You might also like</h2>
+
+        <div class="hits-content">
+          <div class="hits">
+            <div class="photo">
+              <img src="young.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 1</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="vilen.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 2</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="darshan.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 3</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="shubh.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 4</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="king.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 5</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h2>Recommended today</h2>
+
+        <div class="hits-content">
+          <div class="hits">
+            <div class="photo">
+              <img src="young.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 1</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="vilen.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 2</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="darshan.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 3</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="shubh.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 4</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+
+          <div class="hits">
+            <div class="photo">
+              <img src="king.jpg" alt="" />
+            </div>
+            <div class="photo-content">
+              <span>Daily Mix 5</span>
+            </div>
+            <div class="hover-btn">
+              <img src="spotify play button.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <hr />
+        <br /><br /><br />
+        <footer>
+          <p>&copy; 2023 Sumit Kandpal. All rights reserved.</p>
+        </footer>
+      </div>
+
+      <!-- Footer -->
+
+      <div class="box" id="footer">
+        <div class="footer-card">
+          <div class="footer-content">
+            <div class="picture">
+              <img src="krishna.jpeg" alt="" />
+            </div>
+            <div class="mukesh">
+              <span>Hare Krishna Hare Rama</span>
+              <br />
+              <p>Jubin Nautiyal</p>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+
+            <div>
+              <i class="fa-solid fa-window"></i>
+            </div>
+          </div>
+
+          <div class="playpause">
+            <div class="controls">
+              <i class="fa fa-shuffle"></i>
+              <i class="fa-solid fa-backward-step"></i>
+              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-solid fa-forward-step"></i>
+              <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="slidecontainer">
+              <p>1:01</p>
+              <input type="range" class="slider" />
+              <p>5:09</p>
+            </div>
+          </div>
+
+          <div class="volume">
+            <i class="fa-solid fa-music"></i>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fas fa-mobile-alt" style="font-size: 24px"></i>
+            <i class="fas fa-volume-up" style="font-size: 24px"></i>
+            <div class="slide">
+              <input type="range" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

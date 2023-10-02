@@ -5,3 +5,4 @@ Visit clone here <a href="https://sumitkandpal3.github.io/Sotify/" target="_blan
 <br>**Not a spelling mistake.
   
  
+ 

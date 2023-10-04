@@ -3,4 +3,3 @@ Sotify is basically clone of Spotify.Spotify is a Swedish audio streaming and me
 
 Visit clone here <a href="https://sumitkandpal3.github.io/Sotify/" target="_blank">Sotify</a> (Clone Of Spotify)
 <br>**Not a spelling mistake.
- 
